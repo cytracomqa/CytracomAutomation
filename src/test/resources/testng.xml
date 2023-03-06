@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+    <listeners>
+        <listener class-name="utilities.listen.Listener"></listener>
+    </listeners>
+
+    <test name="Cytracom Regression Tests iOS" preserve-order="true">
+        <parameter name="platform" value="ios"/>
+        <classes>
+
+<!--            <class name="testcases.Login.LoginValidUserNameValidPassword"/>-->
+<!--            <class name="testcases.Login.LoginValidUserNameInvalidPassword"/>-->
+<!--            <class name="testcases.Login.LoginInvalidUserNameValidPassword"/>-->
+<!--            <class name="testcases.Login.LoginInvalidUserNameInvalidPassword"/>-->
+<!--            <class name="testcases.Login.LoginEmptyUserNamePassword"/>-->
+
+
+<!--            <class name="testcases.Voicemail.firstVoicemailCellExpandCollapse"/>-->
+<!--            <class name="testcases.Voicemail.firstVoicemailPlayPause"/>-->
+<!--            <class name="testcases.Voicemail.firstVoicemailExpandPlayPause"/>-->
+<!--            <class name="testcases.Voicemail.secondVoicemailCellExpandCollapse"/>-->
+
+
+<!--            <class name="testcases.CallHistory.CallHistory_FirstCall"/>-->
+<!--            <class name="testcases.CallHistory.CallHistory_SecondCall"/>-->
+<!--            <class name="testcases.CallHistory.CallHistory_ThirdCall"/>-->
+<!--            <class name="testcases.CallHistory.CallHistory_CallDetailsCall"/>-->
+<!--            <class name="testcases.CallHistory.CallHistory_CallDetailsMessage"/>-->
+
+
+<!--            <class name="testcases.CallHistory.CallActivePauseHoldButton"/>-->
+<!--            <class name="testcases.CallHistory.CallActiveAddCallButton"/>-->
+<!--            <class name="testcases.CallHistory.CallActiveTransferCallButton"/>-->
+<!--            <class name="testcases.CallHistory.CallActiveMuteUnmuteButton"/>-->
+<!--            <class name="testcases.CallHistory.CallActiveDiapadButton"/>-->
+
+<!--            <class name="testcases.CallActive.CallActive_PauseHoldButton"/>-->
+<!--            <class name="testcases.CallActive.CallActive_AddCallButton"/>-->
+<!--            <class name="testcases.CallActive.CallActive_TransferCallButton"/>-->
+            <class name="testcases.CallActive.CallActive_SpeakerButton"/>
+            <class name="testcases.CallActive.CallActive_MuteUnmuteButton"/>
+`
+
+            <!--            <class name="testcases.CallActive.CallActiveTransferCallButton"/>-->
+<!--            <class name="testcases.CallActive.CallActiveMuteUnmuteButton"/>-->
+<!--            <class name="testcases.CallActive.CallActiveDiapadButton"/>-->
+
+<!--            <class name="testcases.Messaging.CreateNewConversation"/>-->
+<!--            <class name="testcases.Messaging.CreateNewRoom"/>-->
+<!--            <class name="testcases.Messaging.SendNewMessage"/>-->
+
+
+        </classes>
+    </test>
+
+
+</suite>
+
+
+        <!--    <test name="7-Eleven Regression Tests Android" preserve-order="true">-->
+        <!--        <parameter name="platform" value="android"/>-->
+        <!--        <classes>-->
+        <!--                <class name="testcases.Sample.Register.Register_New_Account" />-->
+        <!--            <class name="testcases.Sample.Register.Register_ExistingEmail_ErrorValidation" />-->
+        <!--                <class name="testcases.Sample.Account.Account_Validations" />-->
+        <!--            <class name="testcases.Sample.Account.Account_ViewFullProfile_EditProfile_Validations" />-->
+        <!--            <class name="testcases.Sample.Account.Account_EditSaveLocation" />-->
+        <!--            <class name="testcases.Sample.Account.Account_RemoveLocation" />-->
+        <!--            <class name="testcases.Sample.Account.Account_RemovePaymentMethod" />-->
+        <!--            <class name="testcases.Sample.Account.Account_AddInvalidCardValidations" />-->
+        <!--            <class name="testcases.Sample.Account.AccountScreen_ValidateDeleteMyAccountOptions" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.ProductDetailsScreen_Validations" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.DynamicItems_PlaceOrder_BigGulp" />-->
+        <!--                <class name="testcases.Sample.ProductDetailsAndDynamicItems.DynamicItems_PlaceOrder_Slurpee" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.DynamicItems_PlaceOrder_Coffee" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.ComboItems_PlaceOrder_BigGulp_With_Regular" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.DynamicItems_PlaceOrder_Coffee_ChangeFlavor" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.DynamicItems_PlaceOrder_Slurpee_ChangeFlavorFromBasketScreen" />-->
+        <!--            <class name="testcases.Sample.ProductDetailsAndDynamicItems.DynamicItems_ProductDetailsValidation_Coffee" />-->
+        <!--                <class name="testcases.Sample.PlaceOrder.PlaceOrderWithCard" />-->
+        <!--            <class name="testcases.Sample.SanityTests.PlaceOrderWithCard_And_CreateHCTicket" />-->
+        <!--            <class name="testcases.Sample.SanityTests.PlaceOrderWithPaypal_And_CreateHCTicket" />-->
+        <!--                <class name="testcases.Sample.SanityTests.GeneralFeedback" />-->
+        <!--            <class name="testcases.Sample.ProdBuildTCs.GuestFlowValidations" />-->
+        <!--                    <class name="testcases.Sample.ProdBuildTCs.DeliveryOrder_ReceiptValidations" />-->
+        <!--                <class name="testcases.Sample.GoldPass.StandardGoldPass_Subscription_FromAccountScreen" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StandardGoldPass_Subscription_FromBasketScreen" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StandardGoldPass_Subscription_FromHomePageBanner" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StudentGoldPass_Subscription_FromAccountScreen" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StudentGoldPass_Subscription_FromBasketScreen" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StudentGoldPass_Subscription_FromHomePageBanner" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StudentGoldPass_SubscriptionCancellation_Reactivation_FromAccountScreen" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StandardGoldPass_SubscriptionCancellation_Reactivation_FromAccountScreen" />-->
+        <!--            <class name="testcases.Sample.GoldPass.SwitchStandardToStudent_Subscription" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StudentGoldPass_Subscription_FromAccountScreen_NegativeValidations" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StandardGoldPass_Subscription_FromBasketScreen_NoETADeliveryAddress" />-->
+        <!--            <class name="testcases.Sample.GoldPass.StudentGoldPass_Subscription_FromBasketScreen_NoETADeliveryAddress" />-->
+        <!--        </classes>-->
+        <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+        <!-- Suite -->

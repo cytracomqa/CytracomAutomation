@@ -1,0 +1,7 @@
+phases:
+  install:
+    commands:
+      # To install a newer version of Appium such as version 1.22.0:
+      - export APPIUM_VERSION=1.22.0
+      - avm $APPIUM_VERSION
+      - ln -s /usr/local/avm/versions/$APPIUM_VERSION/node_modules/.bin/appium  /usr/local/avm/versions/$APPIUM_VERSION/node_modules/appium/bin/appium.js
