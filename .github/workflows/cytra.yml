@@ -33,10 +33,10 @@ jobs:
           appium -v
           appium &>/dev/null &
 
-      - name: Build with Maven
+      - name: run tests
         uses: reactive circus/android-emulator-runner@v2
         with:
           api-level: 29
-          script: man clean test -Pandroid
+          script: mvn clean test -Pandroid
 
 
