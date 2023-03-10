@@ -27,8 +27,18 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
+        
+    - name: setup Appium
+      run: |
+        npm install -g appium
+        appium -v
+        appium &>/dev/null &
+        
     - name: Build with Maven
-      run: mvn -B package --file pom.xml test
+      uses: reactive circus/android-emulator-runner@v2
+      with:
+        api-level: 29
+        script: man clean test -Pandroid
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
