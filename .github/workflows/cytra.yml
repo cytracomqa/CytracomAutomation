@@ -34,7 +34,7 @@ jobs:
           appium &>/dev/null &
 
       - name: run tests
-        uses: reactive circus/android-emulator-runner@v2
+        uses: reactive circus/android-emulator-runner@v3
         with:
           api-level: 29
           script: mvn clean test -Pandroid
