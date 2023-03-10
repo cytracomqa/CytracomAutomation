@@ -33,10 +33,12 @@ jobs:
           appium -v
           appium &>/dev/null &
 
-      - name: run tests
-        uses: reactive circus/android-emulator-runner@v3
+      - name: Run connected tests
+        uses: ReactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 29
+          api-level: 30
+          target: google_apis
+          arch: x86_64
           script: mvn clean test -Pandroid
 
 
