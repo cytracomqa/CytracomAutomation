@@ -15,9 +15,8 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
+  run-mobile-tests
+    runs-on:macos-latest
 
     steps:
     - uses: actions/checkout@v3
