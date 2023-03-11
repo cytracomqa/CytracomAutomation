@@ -37,8 +37,8 @@ public class Utils extends BaseClassiOSAndAndroid {
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
             capabilities.setCapability(MobileCapabilityType.BROWSER_NAME,"");
-            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, Constant.deviceName1);
-            capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, Constant.version1);
+            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, Constant.deviceName);
+            capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, Constant.version);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Constant.platformName);
 //            capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 
