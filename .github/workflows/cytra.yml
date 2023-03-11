@@ -6,6 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+
 name: Java CI with Maven
 
 on:
@@ -40,5 +41,4 @@ jobs:
           target: google_apis
           arch: x86_64
           script: mvn clean test -Pandroid
-
 
