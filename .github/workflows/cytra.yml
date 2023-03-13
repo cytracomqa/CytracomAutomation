@@ -35,11 +35,7 @@ jobs:
           appium &>/dev/null &
           
 
-  build_job:
-    name: Building the APK
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
+    
       - name: Checkout
         uses: actions/checkout@v2
       - name: Restore Cache
