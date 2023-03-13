@@ -40,7 +40,7 @@ jobs:
           api-level: 30
           target: default
           arch: x86_64
-          script: mvn clean test
+          
           
       - name: Build the app
         run: ./gradlew assembleDebug
@@ -50,4 +50,5 @@ jobs:
         with:
           name: debug apk
           path: app/builds/app-production-release.apk
+          script: mvn clean test
 
