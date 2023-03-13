@@ -129,6 +129,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             SignInScreen.signIn().click();
             Log.info("Clicked SignIn Button");
 
+            System.out.println("Clicked on SignIn Button");
             //Wait for call history menu button after Logging in
             sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
         }
