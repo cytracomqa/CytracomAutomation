@@ -34,14 +34,33 @@ jobs:
           appium -v
           appium &>/dev/null &
           
-#       - name: Build the app
-#         run: ./gradlew assembleDebug
 
-#       - name: Upload apk
-#         uses: actions/upload-artifact@v2
-#         with:
-#           name: debug apk
-#           path: app/builds/app-production-release.apk
+  build_job:
+    name: Building the APK
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Restore Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+      - name: Change wrapper permissions
+        run: chmod +x ./gradlew
+      - name: Assemble Debug
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: apk
+          path: app/builds/app-production-debug.apk
 
       - name: Run connected tests
         uses: ReactiveCircus/android-emulator-runner@v2
