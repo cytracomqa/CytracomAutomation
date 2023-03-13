@@ -51,8 +51,13 @@ jobs:
           arch: x86_64
           script: mvn clean test
           
-      - name: Build APK
-        run: bash ./gradlew assembleDebug --stacktrace
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+      - name: Build with Gradle
+        run: ./gradlew build
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug
+  
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
