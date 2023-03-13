@@ -10664,3 +10664,242 @@ Session ID: 42a19dd7-65ef-40db-9379-61942900e8a6
 2023-03-10 18:26:50 INFO  X
 2023-03-10 18:26:50 INFO  X
 2023-03-10 18:26:50 INFO  X
+2023-03-13 15:34:41 INFO  ****************************************************************************************
+2023-03-13 15:34:41 INFO  ****************************************************************************************
+2023-03-13 15:34:41 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:34:41 INFO  ****************************************************************************************
+2023-03-13 15:34:41 INFO  ****************************************************************************************
+2023-03-13 15:34:50 INFO  App is Launched
+2023-03-13 15:34:52 INFO  User is Signed In
+2023-03-13 15:34:52 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:34:52 INFO  X
+2023-03-13 15:34:52 INFO  X
+2023-03-13 15:34:52 INFO  X
+2023-03-13 15:34:52 INFO  X
+2023-03-13 15:35:48 INFO  ****************************************************************************************
+2023-03-13 15:35:48 INFO  ****************************************************************************************
+2023-03-13 15:35:48 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:35:48 INFO  ****************************************************************************************
+2023-03-13 15:35:48 INFO  ****************************************************************************************
+2023-03-13 15:35:56 INFO  App is Launched
+2023-03-13 15:35:56 INFO  User is Signed In
+2023-03-13 15:35:57 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:35:57 INFO  X
+2023-03-13 15:35:57 INFO  X
+2023-03-13 15:35:57 INFO  X
+2023-03-13 15:35:57 INFO  X
+2023-03-13 15:36:42 INFO  ****************************************************************************************
+2023-03-13 15:36:42 INFO  ****************************************************************************************
+2023-03-13 15:36:42 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:36:42 INFO  ****************************************************************************************
+2023-03-13 15:36:42 INFO  ****************************************************************************************
+2023-03-13 15:36:47 INFO  App is Launched
+2023-03-13 15:36:48 INFO  User is Signed In
+2023-03-13 15:36:48 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:36:48 INFO  X
+2023-03-13 15:36:48 INFO  X
+2023-03-13 15:36:48 INFO  X
+2023-03-13 15:36:48 INFO  X
+2023-03-13 15:38:22 INFO  ****************************************************************************************
+2023-03-13 15:38:22 INFO  ****************************************************************************************
+2023-03-13 15:38:22 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:38:22 INFO  ****************************************************************************************
+2023-03-13 15:38:22 INFO  ****************************************************************************************
+2023-03-13 15:38:24 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:38:24 INFO  X
+2023-03-13 15:38:24 INFO  X
+2023-03-13 15:38:24 INFO  X
+2023-03-13 15:38:24 INFO  X
+2023-03-13 15:38:39 INFO  ****************************************************************************************
+2023-03-13 15:38:39 INFO  ****************************************************************************************
+2023-03-13 15:38:39 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:38:39 INFO  ****************************************************************************************
+2023-03-13 15:38:39 INFO  ****************************************************************************************
+2023-03-13 15:38:48 INFO  App is Launched
+2023-03-13 15:38:56 INFO  User is Signed In
+2023-03-13 15:39:05 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:39:05 INFO  X
+2023-03-13 15:39:05 INFO  X
+2023-03-13 15:39:05 INFO  X
+2023-03-13 15:39:05 INFO  X
+2023-03-13 15:39:58 INFO  ****************************************************************************************
+2023-03-13 15:39:58 INFO  ****************************************************************************************
+2023-03-13 15:39:58 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:39:58 INFO  ****************************************************************************************
+2023-03-13 15:39:58 INFO  ****************************************************************************************
+2023-03-13 15:40:05 INFO  App is Launched
+2023-03-13 15:40:14 INFO  User is Signed In
+2023-03-13 15:40:49 INFO  User is Signed In
+2023-03-13 15:40:49 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P333182.spwynet.com', ip: 'fe80:0:0:0:1012:91b9:2ce9:8658%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: , databaseEnabled: false, desired: {browserName: , deviceName: emulator-5554, nativeEvents: true, platformName: android, platformVersion: 12.0}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-G973U1, deviceName: R38MA0G2TWY, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R38MA0G2TWY, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 112, takesScreenshot: true, viewportRect: {height: 1930, left: 0, top: 112, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bdf9487a-a1d9-4171-88e7-6df81fe317fe
+*** Element info: {Using=xpath, value=//*[@content-desc="End Call Button"]}
+2023-03-13 15:40:49 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:40:49 INFO  X
+2023-03-13 15:40:49 INFO  X
+2023-03-13 15:40:49 INFO  X
+2023-03-13 15:40:49 INFO  X
+2023-03-13 15:41:25 INFO  ****************************************************************************************
+2023-03-13 15:41:25 INFO  ****************************************************************************************
+2023-03-13 15:41:25 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:41:25 INFO  ****************************************************************************************
+2023-03-13 15:41:25 INFO  ****************************************************************************************
+2023-03-13 15:41:33 INFO  App is Launched
+2023-03-13 15:41:41 INFO  User is Signed In
+2023-03-13 15:41:52 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:41:52 INFO  X
+2023-03-13 15:41:52 INFO  X
+2023-03-13 15:41:52 INFO  X
+2023-03-13 15:41:52 INFO  X
+2023-03-13 15:42:09 INFO  ****************************************************************************************
+2023-03-13 15:42:09 INFO  ****************************************************************************************
+2023-03-13 15:42:09 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:42:09 INFO  ****************************************************************************************
+2023-03-13 15:42:09 INFO  ****************************************************************************************
+2023-03-13 15:42:10 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:42:10 INFO  X
+2023-03-13 15:42:10 INFO  X
+2023-03-13 15:42:10 INFO  X
+2023-03-13 15:42:10 INFO  X
+2023-03-13 15:42:34 INFO  ****************************************************************************************
+2023-03-13 15:42:34 INFO  ****************************************************************************************
+2023-03-13 15:42:34 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:42:34 INFO  ****************************************************************************************
+2023-03-13 15:42:34 INFO  ****************************************************************************************
+2023-03-13 15:42:38 INFO  App is Launched
+2023-03-13 15:42:38 INFO  User is Signed In
+2023-03-13 15:42:38 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:42:38 INFO  X
+2023-03-13 15:42:38 INFO  X
+2023-03-13 15:42:38 INFO  X
+2023-03-13 15:42:38 INFO  X
+2023-03-13 15:44:48 INFO  ****************************************************************************************
+2023-03-13 15:44:48 INFO  ****************************************************************************************
+2023-03-13 15:44:48 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:44:48 INFO  ****************************************************************************************
+2023-03-13 15:44:48 INFO  ****************************************************************************************
+2023-03-13 15:44:57 INFO  App is Launched
+2023-03-13 15:45:00 INFO  Username Entered
+2023-03-13 15:45:02 INFO  Password Entered
+2023-03-13 15:45:06 INFO  Clicked SignIn Button
+2023-03-13 15:45:30 INFO  Username Entered
+2023-03-13 15:45:32 INFO  Password Entered
+2023-03-13 15:45:35 INFO  Clicked SignIn Button
+2023-03-13 15:45:35 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P333182.spwynet.com', ip: 'fe80:0:0:0:1012:91b9:2ce9:8658%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: , databaseEnabled: false, desired: {browserName: , deviceName: emulator-5554, nativeEvents: true, platformName: android, platformVersion: 11.0}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: ceea9f13-40aa-418c-87ec-8787be3bb6f6
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='History']}
+2023-03-13 15:45:35 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:45:35 INFO  X
+2023-03-13 15:45:35 INFO  X
+2023-03-13 15:45:35 INFO  X
+2023-03-13 15:45:35 INFO  X
+2023-03-13 15:48:17 INFO  ****************************************************************************************
+2023-03-13 15:48:17 INFO  ****************************************************************************************
+2023-03-13 15:48:17 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:48:17 INFO  ****************************************************************************************
+2023-03-13 15:48:17 INFO  ****************************************************************************************
+2023-03-13 15:48:25 INFO  App is Launched
+2023-03-13 15:48:28 INFO  Username Entered
+2023-03-13 15:48:30 INFO  Password Entered
+2023-03-13 15:48:33 INFO  Clicked SignIn Button
+2023-03-13 15:49:06 INFO  Username Entered
+2023-03-13 15:49:07 INFO  Password Entered
+2023-03-13 15:49:11 INFO  Clicked SignIn Button
+2023-03-13 15:49:21 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'P333182.spwynet.com', ip: 'fe80:0:0:0:1012:91b9:2ce9:8658%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: , databaseEnabled: false, desired: {browserName: , deviceName: emulator-5554, nativeEvents: true, platformName: android, platformVersion: 11.0}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 48ff823b-7a25-44a0-8a34-574828aae6d3
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='History']}
+2023-03-13 15:49:21 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:49:21 INFO  X
+2023-03-13 15:49:21 INFO  X
+2023-03-13 15:49:21 INFO  X
+2023-03-13 15:49:21 INFO  X
+2023-03-13 15:50:07 INFO  ****************************************************************************************
+2023-03-13 15:50:07 INFO  ****************************************************************************************
+2023-03-13 15:50:07 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:50:07 INFO  ****************************************************************************************
+2023-03-13 15:50:07 INFO  ****************************************************************************************
+2023-03-13 15:50:15 INFO  App is Launched
+2023-03-13 15:50:18 INFO  Username Entered
+2023-03-13 15:50:20 INFO  Password Entered
+2023-03-13 15:50:24 INFO  Clicked SignIn Button
+2023-03-13 15:50:50 INFO  Username Entered
+2023-03-13 15:50:53 INFO  Password Entered
+2023-03-13 15:50:58 INFO  Clicked SignIn Button
+2023-03-13 15:51:06 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:51:06 INFO  X
+2023-03-13 15:51:06 INFO  X
+2023-03-13 15:51:06 INFO  X
+2023-03-13 15:51:06 INFO  X
+2023-03-13 15:53:04 INFO  ****************************************************************************************
+2023-03-13 15:53:04 INFO  ****************************************************************************************
+2023-03-13 15:53:04 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 15:53:04 INFO  ****************************************************************************************
+2023-03-13 15:53:04 INFO  ****************************************************************************************
+2023-03-13 15:53:12 INFO  App is Launched
+2023-03-13 15:53:14 INFO  Username Entered
+2023-03-13 15:53:16 INFO  Password Entered
+2023-03-13 15:53:19 INFO  Clicked SignIn Button
+2023-03-13 15:53:43 INFO  Username Entered
+2023-03-13 15:53:44 INFO  Password Entered
+2023-03-13 15:53:48 INFO  Clicked SignIn Button
+2023-03-13 15:53:56 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 15:53:56 INFO  X
+2023-03-13 15:53:56 INFO  X
+2023-03-13 15:53:56 INFO  X
+2023-03-13 15:53:56 INFO  X
+2023-03-13 16:16:37 INFO  ****************************************************************************************
+2023-03-13 16:16:37 INFO  ****************************************************************************************
+2023-03-13 16:16:37 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 16:16:37 INFO  ****************************************************************************************
+2023-03-13 16:16:37 INFO  ****************************************************************************************
+2023-03-13 16:16:46 INFO  App is Launched
+2023-03-13 16:16:49 INFO  Username Entered
+2023-03-13 16:16:52 INFO  Password Entered
+2023-03-13 16:16:56 INFO  Clicked SignIn Button
+2023-03-13 16:17:06 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 16:17:06 INFO  X
+2023-03-13 16:17:06 INFO  X
+2023-03-13 16:17:06 INFO  X
+2023-03-13 16:17:06 INFO  X
+2023-03-13 16:19:39 INFO  ****************************************************************************************
+2023-03-13 16:19:39 INFO  ****************************************************************************************
+2023-03-13 16:19:39 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 16:19:39 INFO  ****************************************************************************************
+2023-03-13 16:19:39 INFO  ****************************************************************************************
+2023-03-13 16:19:49 INFO  App is Launched
+2023-03-13 16:19:53 INFO  Username Entered
+2023-03-13 16:19:55 INFO  Password Entered
+2023-03-13 16:19:59 INFO  Clicked SignIn Button
+2023-03-13 16:20:08 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 16:20:08 INFO  X
+2023-03-13 16:20:08 INFO  X
+2023-03-13 16:20:08 INFO  X
+2023-03-13 16:20:08 INFO  X
+2023-03-13 16:20:27 INFO  ****************************************************************************************
+2023-03-13 16:20:27 INFO  ****************************************************************************************
+2023-03-13 16:20:27 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-13 16:20:27 INFO  ****************************************************************************************
+2023-03-13 16:20:27 INFO  ****************************************************************************************
+2023-03-13 16:20:35 INFO  App is Launched
+2023-03-13 16:20:38 INFO  Username Entered
+2023-03-13 16:20:40 INFO  Password Entered
+2023-03-13 16:20:43 INFO  Clicked SignIn Button
+2023-03-13 16:20:53 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-13 16:20:53 INFO  X
+2023-03-13 16:20:53 INFO  X
+2023-03-13 16:20:53 INFO  X
+2023-03-13 16:20:53 INFO  X

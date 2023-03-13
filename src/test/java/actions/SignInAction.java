@@ -3,6 +3,7 @@ package actions;
 import org.testng.asserts.SoftAssert;
 
 import pageObjects.BaseClassiOSAndAndroid;
+import pageObjects.CallHistoryPage;
 import pageObjects.SignInScreen;
 import utilities.*;
 
@@ -127,7 +128,8 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             SignInScreen.signIn().click();
             Log.info("Clicked SignIn Button");
 
-            //SignInScreen.waitForSigningIn();
+            //Wait for call history menu button after Logging in
+            sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
         }
 
 //                String text = "";
