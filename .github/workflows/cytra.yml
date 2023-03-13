@@ -33,14 +33,6 @@ jobs:
           npm install -g appium
           appium -v
           appium &>/dev/null &
-
-      - name: Run connected tests
-        uses: ReactiveCircus/android-emulator-runner@v2
-        with:
-          api-level: 30
-          target: default
-          arch: x86_64
-          
           
       - name: Build the app
         run: ./gradlew assembleDebug
@@ -50,5 +42,16 @@ jobs:
         with:
           name: debug apk
           path: app/builds/app-production-release.apk
+
+      - name: Run connected tests
+        uses: ReactiveCircus/android-emulator-runner@v2
+        with:
+          api-level: 30
+          target: default
+          arch: x86_64
           script: mvn clean test
+
+          
+          
+      
 
