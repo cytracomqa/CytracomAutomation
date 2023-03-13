@@ -27,12 +27,21 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
-
+      
       - name: setup Appium
         run: |
           npm install -g appium
           appium -v
           appium &>/dev/null &
+          
+#       - name: Build the app
+#         run: ./gradlew assembleDebug
+
+#       - name: Upload apk
+#         uses: actions/upload-artifact@v2
+#         with:
+#           name: debug apk
+#           path: app/builds/app-production-release.apk
 
       - name: Run connected tests
         uses: ReactiveCircus/android-emulator-runner@v2
@@ -41,4 +50,17 @@ jobs:
           target: default
           arch: x86_64
           script: mvn clean test
+          
+      - name: Build APK
+        run: bash ./gradlew assembleDebug --stacktrace
+      - name: Upload APK
+        uses: actions/upload-artifact@v1
+        with:
+          name: apk
+          path: app/builds/app-production-release.apk
+
+
+          
+          
+      
 
