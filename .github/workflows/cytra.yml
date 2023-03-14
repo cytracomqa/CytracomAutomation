@@ -36,21 +36,13 @@ jobs:
           appium -v
           appium &>/dev/null &
       
-                
-      - name: setup Appium
-        run: |
-          npm install -g appium
-          appium -v
-          appium &>/dev/null &
           
-
       - name: Run Appium tests
-        uses: reactiveCircus/android-emulator-runner@v1
+        uses: reactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 29
-          target: default
+          api-level: 31
+          target: google_apis
           arch: x86_64
-          profile: Nexus 6
           script: mvn clean test -Pandroid
 
           
