@@ -7,6 +7,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import pageObjects.BaseClassiOSAndAndroid;
 
@@ -40,7 +41,10 @@ public class Utils extends BaseClassiOSAndAndroid {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, Constant.deviceName);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, Constant.version);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Constant.platformName);
-            capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+            capabilities.setCapability("appWaitActivity", "com.cytracom.*");
+
+
+            //capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
             capabilities.setCapability(MobileCapabilityType.APP, Constant.appPath);
             capabilities.setCapability(MobileCapabilityType.HAS_NATIVE_EVENTS, true);
 

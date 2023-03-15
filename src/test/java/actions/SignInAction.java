@@ -131,6 +131,11 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 
             System.out.println("Clicked on SignIn Button");
             //Wait for call history menu button after Logging in
+            if (SignInScreen.audioPermissionPopup().isDisplayed()) {
+                SignInScreen.audioPermissionPopup().click();
+            }
+            if (SignInScreen.callPermissionPopup().isDisplayed())
+
             sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
         }
 

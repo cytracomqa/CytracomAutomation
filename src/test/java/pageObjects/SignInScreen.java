@@ -71,6 +71,63 @@ public class SignInScreen extends BaseClassiOSAndAndroid {
             }
     }
 
+    public static WebElement audioPermissionPopup() throws InterruptedException {
+
+        WebElement element=null;
+        switch (deviceType) {
+            case "Android":
+                //List<WebElement> androidElements = androidDriver.findElements(By.className("android.widget.EditText"));
+                //return androidElements.get(0);
+                element = androidDriver.findElement(By.xpath("(//*[@text='WHILE USING THE APP']"));
+                return element;
+            case "iOS":
+                element = iosDriver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Email\"])[3]"));
+                return element;
+
+            default:
+                return element;
+        }
+
+    }
+
+    public static WebElement callPermissionPopup() throws InterruptedException {
+
+        WebElement element=null;
+        switch (deviceType) {
+            case "Android":
+                //List<WebElement> androidElements = androidDriver.findElements(By.className("android.widget.EditText"));
+                //return androidElements.get(0);
+                element = androidDriver.findElement(By.xpath("//*[@text='Allow Cytracom Mobile to make and manage phone calls?']"));
+                return element;
+            case "iOS":
+                element = iosDriver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Email\"])[3]"));
+                return element;
+
+            default:
+                return element;
+        }
+
+    }
+
+    public static WebElement allowButton() throws InterruptedException {
+
+        WebElement element=null;
+        switch (deviceType) {
+            case "Android":
+                //List<WebElement> androidElements = androidDriver.findElements(By.className("android.widget.EditText"));
+                //return androidElements.get(0);
+                element = androidDriver.findElement(By.xpath("(//*[@text='ALLOW']"));
+                return element;
+            case "iOS":
+                element = iosDriver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Email\"])[3]"));
+                return element;
+
+            default:
+                return element;
+        }
+
+    }
+
     public static void waitForbuttonRegister() throws InterruptedException {
         switch (deviceType) {
             case "Android":
