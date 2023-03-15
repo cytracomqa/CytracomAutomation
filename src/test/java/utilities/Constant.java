@@ -16,7 +16,7 @@ public class Constant {
     public static final String Path_TestData = "/Users/kram3014/Documents/AutomationScripts/Android/src/test/resources/com";
     public static final String File_TestData = "TestData.xlsx";
     public static final String Path_ScreenShot = System.getProperty("user.dir") + fileSeperator + "Screenshots/";
-    public static final String appPath = "/app/builds/cytracom.apk";
+    public static final String appPath = ".github/workflows/cytracom.apk";
 
     public static final int Col_TestCaseName = 0;
     public static final int Col_Username = 1;
