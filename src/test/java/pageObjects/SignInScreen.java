@@ -78,7 +78,7 @@ public class SignInScreen extends BaseClassiOSAndAndroid {
             case "Android":
                 //List<WebElement> androidElements = androidDriver.findElements(By.className("android.widget.EditText"));
                 //return androidElements.get(0);
-                element = androidDriver.findElement(By.xpath("(//*[@text='WHILE USING THE APP']"));
+                element = androidDriver.findElement(By.xpath("//*[@text='WHILE USING THE APP']"));
                 return element;
             case "iOS":
                 element = iosDriver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Email\"])[3]"));
@@ -116,7 +116,7 @@ public class SignInScreen extends BaseClassiOSAndAndroid {
             case "Android":
                 //List<WebElement> androidElements = androidDriver.findElements(By.className("android.widget.EditText"));
                 //return androidElements.get(0);
-                element = androidDriver.findElement(By.xpath("(//*[@text='ALLOW']"));
+                element = androidDriver.findElement(By.xpath("//*[@text='ALLOW']"));
                 return element;
             case "iOS":
                 element = iosDriver.findElement(By.xpath("(//XCUIElementTypeOther[@name=\"Email\"])[3]"));

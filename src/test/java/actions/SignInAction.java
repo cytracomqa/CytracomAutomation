@@ -128,13 +128,31 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             SignInScreen.waitForbtnSignIn();
             SignInScreen.signIn().click();
             Log.info("Clicked SignIn Button");
-
             System.out.println("Clicked on SignIn Button");
+
+            Thread.sleep(10000);
+//            try{
+//                Functions.waitForFeedbackPopup();
+//                Functions.FeedbackPopup();
+//            }catch(Exception e){
+//                System.out.println("No Feedback Popup");
+//            }
             //Wait for call history menu button after Logging in
-            if (SignInScreen.audioPermissionPopup().isDisplayed()) {
-                SignInScreen.audioPermissionPopup().click();
-            }
-            if (SignInScreen.callPermissionPopup().isDisplayed())
+//              try {
+//                  if (SignInScreen.audioPermissionPopup().getText().equals("WHILE USING THE APP")) {
+//                      SignInScreen.audioPermissionPopup().click();}
+//                  }catch(Exception e) {System.out.println("No Audio Permission Popup");}
+//
+//            try {
+//                if (SignInScreen.callPermissionPopup().getText().equals("Allow Cytracom Mobile to make and manage phone calls?")) {
+//                    SignInScreen.allowButton().click();
+//                }
+//            }catch(Exception e) {System.out.println("No Call Permission Popup");}
+
+
+            SignInScreen.audioPermissionPopup().click();
+            Thread.sleep(4000);
+            SignInScreen.allowButton().click();
 
             sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
         }

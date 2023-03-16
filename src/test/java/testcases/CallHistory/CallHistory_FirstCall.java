@@ -40,8 +40,10 @@ public class CallHistory_FirstCall {
 
         // Every exception thrown from any class or method, will be catch here and will be taken care off
         try{
+
             //SignIn if not Signed In
             SignInAction.SignInFlow();
+
 
             CallHistoryAction.CallHistoryFirstCall();
             ExtentTestManager.getTest().log(Status.PASS, "Calling First Entry on call history page");

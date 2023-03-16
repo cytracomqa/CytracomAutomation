@@ -41,12 +41,17 @@ public class Utils extends BaseClassiOSAndAndroid {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, Constant.deviceName);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, Constant.version);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Constant.platformName);
+
+//            capabilities.setCapability("appPackage", "com.cytracom.*");
+//            capabilities.setCapability("appActivity", "com.cytracom");
+
+            capabilities.setCapability(MobileCapabilityType.APP, Constant.appPath);
             capabilities.setCapability("appWaitActivity", "com.cytracom.*");
 
-
             //capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-            capabilities.setCapability(MobileCapabilityType.APP, Constant.appPath);
+
             capabilities.setCapability(MobileCapabilityType.HAS_NATIVE_EVENTS, true);
+            capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
 
             androidDriver = new AndroidDriver(new URL(Constant.URL), capabilities);
             Log.info("App is Launched");
