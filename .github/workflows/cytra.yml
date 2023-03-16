@@ -27,14 +27,13 @@ jobs:
           distribution: 'temurin'
           cache: maven    
           
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v2
         with:
-           node-version: lts/*
-           check-latest: true
+           node-version: '13'
 
-      - name: setup -g appium@next
+      - name: setup Appium
         run: |
-          npm install appium
+          npm install -g appium@v1.20.2
           appium -v
           appium &>/dev/null &
       
@@ -42,7 +41,7 @@ jobs:
       - name: Run Appium tests
         uses: ReactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 31
+          api-level: 29
           target: default
           arch: x86_64
           script: mvn clean test -Pandroid
