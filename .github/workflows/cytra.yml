@@ -20,17 +20,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up JDK 18
+      - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
-          java-version: '18'
+          java-version: '17'
           distribution: 'temurin'
           cache: maven          
 
 
       - name: setup Appium
         run: |
-          npm install -g appium
+          npm install -g appium@V1.22.3
           appium -v
           appium &>/dev/null &
       
@@ -38,7 +38,7 @@ jobs:
       - name: Run Appium tests
         uses: ReactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 30
+          api-level: 31
           target: default
           arch: x86_64
           script: mvn clean test -Pandroid
