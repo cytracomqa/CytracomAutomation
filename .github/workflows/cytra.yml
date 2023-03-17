@@ -36,7 +36,7 @@ jobs:
       
           
       - name: Run Appium tests
-        uses: reactiveCircus/android-emulator-runner@v2
+        uses: reactiveCircus/android-emulator-runner
         with:
           api-level: 30
           target: default
