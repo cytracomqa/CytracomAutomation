@@ -41,4 +41,4 @@ jobs:
           api-level: 30
           target: default
           arch: x86_64
-          script: mvn clean test -Pandroid
+          script: mvn clean test
