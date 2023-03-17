@@ -41,7 +41,7 @@ jobs:
       - name: Run Appium tests
         uses: reactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 32
+          api-level: 31
           target: default
           emulator-build: 7425822
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
