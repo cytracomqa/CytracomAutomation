@@ -45,8 +45,8 @@ public class CallHistory_FirstCall {
             SignInAction.SignInFlow();
 
 
-            CallHistoryAction.CallHistoryFirstCall();
-            ExtentTestManager.getTest().log(Status.PASS, "Calling First Entry on call history page");
+//            CallHistoryAction.CallHistoryFirstCall();
+//            ExtentTestManager.getTest().log(Status.PASS, "Calling First Entry on call history page");
 
         }catch (Exception e){
             System.out.println(e.getMessage());

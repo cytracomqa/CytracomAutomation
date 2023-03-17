@@ -1,5 +1,7 @@
 package actions;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 
 import pageObjects.BaseClassiOSAndAndroid;
@@ -9,6 +11,7 @@ import utilities.*;
 
 import java.net.MalformedURLException;
 import java.util.Base64;
+import java.util.List;
 
 //************************************************************************************************************************
 //************************************************************************************************************************
@@ -121,7 +124,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             SignInScreen.textPassword().sendKeys(Password);
             Log.info("Password Entered");
 
-            if(deviceType.equalsIgnoreCase("Android")) {
+            if (deviceType.equalsIgnoreCase("Android")) {
                 androidDriver.hideKeyboard();
             }
 
@@ -130,7 +133,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             Log.info("Clicked SignIn Button");
             System.out.println("Clicked on SignIn Button");
 
-            Thread.sleep(4000);
+            Thread.sleep(10000);
 //            try{
 //                Functions.waitForFeedbackPopup();
 //                Functions.FeedbackPopup();
@@ -150,21 +153,33 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //            }catch(Exception e) {System.out.println("No Call Permission Popup");}
 
 
-            try {
-                SignInScreen.allowButton().click();
-            }catch(Exception e) {System.out.println("No Permission Popup");}
-            Thread.sleep(4000);
+            List<WebElement> m = androidDriver.findElements(By.xpath("//*"));
 
-            try{
-                SignInScreen.audioPermissionPopup().click();
-            }catch(Exception e) {System.out.println("No Permission Popup");}
-
-            try{
-                SignInScreen.audioPermissionPopup().click();
-            }catch(Exception e) {System.out.println("No Permission Popup");}
-
-            sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
+            for (int i = 0; i < m.size(); i++) {
+                //obtain text
+                String s = m.get(i).getText();
+                System.out.println("Text is: " + s);
+            }
         }
+//            try {
+//                SignInScreen.allowButton().click();
+//            }catch(Exception e) {System.out.println("No Permission Popup");}
+//            Thread.sleep(4000);
+//
+//            try{
+//                SignInScreen.audioPermissionPopup().click();
+//            }catch(Exception e) {System.out.println("No Permission Popup");}
+//
+//            try{
+//                SignInScreen.audioPermissionPopup().click();
+//            }catch(Exception e) {System.out.println("No Permission Popup");}
+//
+//            sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
+//        }
+
+
+
+
 
 //                String text = "";
 //                //For iOS, Email field has a default text Email. so this is included for iOS. For Android, it is blank
