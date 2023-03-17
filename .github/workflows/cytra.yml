@@ -39,7 +39,7 @@ jobs:
       
           
       - name: Run Appium tests
-        uses: ReactiveCircus/android-emulator-runner@v2
+        uses: reactiveCircus/android-emulator-runner@v2
         with:
           api-level: 32
           target: google_apis
