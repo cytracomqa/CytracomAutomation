@@ -43,6 +43,12 @@ jobs:
         with:
           api-level: 30
           target: default
+          emulator-build: 7425822
+          cores: 2
+          avd-name: test
+          force-avd-creation: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+          disable-animations: true
           arch: x86_64
           script: mvn clean test -Pandroid
           
