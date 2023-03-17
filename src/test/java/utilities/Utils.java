@@ -51,8 +51,8 @@ public class Utils extends BaseClassiOSAndAndroid {
             //capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 
             capabilities.setCapability(MobileCapabilityType.HAS_NATIVE_EVENTS, true);
-            capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
-            capabilities.setCapability("autoGrantPermissions", true);
+//            capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
+//            capabilities.setCapability("autoGrantPermissions", true);
 
 
             androidDriver = new AndroidDriver(new URL(Constant.URL), capabilities);

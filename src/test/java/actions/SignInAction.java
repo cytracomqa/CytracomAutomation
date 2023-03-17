@@ -150,12 +150,16 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //            }catch(Exception e) {System.out.println("No Call Permission Popup");}
 
             try {
-            SignInScreen.audioPermissionPopup().click();
+                SignInScreen.allowButton().click();
+            }catch(Exception e) {System.out.println("No Permission Popup");}
             Thread.sleep(4000);
-            SignInScreen.allowButton().click();
+
+            try{
+                SignInScreen.audioPermissionPopup().click();
             }catch(Exception e) {System.out.println("No Permission Popup");}
 
-//            sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
+
+            sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
         }
 
 //                String text = "";
