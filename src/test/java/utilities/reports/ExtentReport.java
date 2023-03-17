@@ -18,7 +18,7 @@ public class ExtentReport {
     private static String reportFileName = "Test-Automation-Report.html";
     private static String fileSeperator = System.getProperty("file.separator");
     //private static String reportFilepath = System.getProperty("user.dir") +fileSeperator+ "test-output";
-    private static String reportFilepath = "/tmp/reports";
+    private static String reportFilepath = System.getProperty("user.dir") + "/tmp/reports";
     private static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
 
     public static ExtentReports getInstance() {

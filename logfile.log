@@ -11851,3 +11851,82 @@ Session ID: d7f73cdb-71a4-46ea-9306-4fd117ad21ee
 2023-03-17 01:41:28 INFO  ****************************************************************************************
 2023-03-17 01:41:28 INFO  ****************************************************************************************
 2023-03-17 01:41:38 INFO  App is Launched
+2023-03-17 01:41:46 INFO  User is Signed In
+2023-03-17 08:23:54 INFO  ****************************************************************************************
+2023-03-17 08:23:54 INFO  ****************************************************************************************
+2023-03-17 08:23:54 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-17 08:23:54 INFO  ****************************************************************************************
+2023-03-17 08:23:54 INFO  ****************************************************************************************
+2023-03-17 08:24:07 INFO  App is Launched
+2023-03-17 08:24:15 INFO  User is Signed In
+2023-03-17 08:24:23 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 08:24:23 INFO  X
+2023-03-17 08:24:23 INFO  X
+2023-03-17 08:24:23 INFO  X
+2023-03-17 08:24:23 INFO  X
+2023-03-17 08:30:30 INFO  ****************************************************************************************
+2023-03-17 08:30:30 INFO  ****************************************************************************************
+2023-03-17 08:30:30 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-17 08:30:30 INFO  ****************************************************************************************
+2023-03-17 08:30:30 INFO  ****************************************************************************************
+2023-03-17 08:30:39 INFO  App is Launched
+2023-03-17 08:30:47 INFO  User is Signed In
+2023-03-17 08:30:56 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 08:30:56 INFO  X
+2023-03-17 08:30:56 INFO  X
+2023-03-17 08:30:56 INFO  X
+2023-03-17 08:30:56 INFO  X
+2023-03-17 08:31:33 INFO  ****************************************************************************************
+2023-03-17 08:31:33 INFO  ****************************************************************************************
+2023-03-17 08:31:33 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-17 08:31:33 INFO  ****************************************************************************************
+2023-03-17 08:31:33 INFO  ****************************************************************************************
+2023-03-17 08:31:43 INFO  App is Launched
+2023-03-17 08:31:51 INFO  User is Signed In
+2023-03-17 08:32:27 INFO  User is Signed In
+2023-03-17 08:32:27 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pratiks-MBP.lan', ip: '2603:8080:f900:146:0:0:0:187a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/pratik/IdeaProjects/..., appPackage: com.cytracom.cytracommobile, appWaitActivity: com.cytracom.*, browserName: , databaseEnabled: false, desired: {app: /Users/pratik/IdeaProjects/..., appWaitActivity: com.cytracom.*, browserName: , deviceName: emulator-5554, nativeEvents: true, noReset: true, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: caa323e8-3781-4d78-8e47-bd4d4fc16006
+*** Element info: {Using=xpath, value=//*[@content-desc="End Call Button"]}
+2023-03-17 08:32:27 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 08:32:27 INFO  X
+2023-03-17 08:32:27 INFO  X
+2023-03-17 08:32:27 INFO  X
+2023-03-17 08:32:27 INFO  X
+2023-03-17 09:29:37 INFO  ****************************************************************************************
+2023-03-17 09:29:37 INFO  ****************************************************************************************
+2023-03-17 09:29:37 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-17 09:29:37 INFO  ****************************************************************************************
+2023-03-17 09:29:37 INFO  ****************************************************************************************
+2023-03-17 09:29:40 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 09:29:40 INFO  X
+2023-03-17 09:29:40 INFO  X
+2023-03-17 09:29:40 INFO  X
+2023-03-17 09:29:40 INFO  X
+2023-03-17 09:30:07 INFO  ****************************************************************************************
+2023-03-17 09:30:07 INFO  ****************************************************************************************
+2023-03-17 09:30:07 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-17 09:30:07 INFO  ****************************************************************************************
+2023-03-17 09:30:07 INFO  ****************************************************************************************
+2023-03-17 09:31:16 INFO  App is Launched
+2023-03-17 09:31:25 INFO  Username Entered
+2023-03-17 09:31:29 INFO  Password Entered
+2023-03-17 09:31:37 INFO  Clicked SignIn Button
+2023-03-17 09:32:26 INFO  User is Signed In
+2023-03-17 09:32:26 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pratiks-MBP.lan', ip: '2603:8080:f900:146:0:0:0:187a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/pratik/IdeaProjects/..., appPackage: com.cytracom.cytracommobile, appWaitActivity: com.cytracom.*, browserName: , databaseEnabled: false, desired: {app: /Users/pratik/IdeaProjects/..., appWaitActivity: com.cytracom.*, browserName: , deviceName: emulator-5556, nativeEvents: true, noReset: true, platformName: android, platformVersion: 12}, deviceApiLevel: 32, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2420, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4a14c0cd-e1aa-40c4-87b9-629e49de6417
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='History']}
+2023-03-17 09:32:26 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 09:32:26 INFO  X
+2023-03-17 09:32:26 INFO  X
+2023-03-17 09:32:26 INFO  X
+2023-03-17 09:32:26 INFO  X
