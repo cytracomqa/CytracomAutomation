@@ -29,11 +29,11 @@ jobs:
           
       - uses: actions/setup-node@v2
         with:
-           node-version: '12'
+           node-version: '13'
 
       - name: setup Appium
         run: |
-          npm install -g appium@v1.20.2
+          npm install -g appium@v1.22.3
           appium -v
           appium &>/dev/null &
       
@@ -41,8 +41,8 @@ jobs:
       - name: Run Appium tests
         uses: ReactiveCircus/android-emulator-runner@v2
         with:
-          api-level: 30
-          target: default
+          api-level: 32
+          target: google_apis
           arch: x86_64
           script: mvn clean test -Pandroid
           
