@@ -41,7 +41,8 @@ jobs:
       - name: Run Appium tests
         uses: reactiveCircus/android-emulator-runner@v2
         with:
-          target: google_apis
+          api-level: 30
+          target: default
           script: mvn clean test -Pandroid
           
           
