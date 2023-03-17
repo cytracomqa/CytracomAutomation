@@ -11975,3 +11975,26 @@ Session ID: 4a14c0cd-e1aa-40c4-87b9-629e49de6417
 2023-03-17 11:29:17 INFO  X
 2023-03-17 11:29:17 INFO  X
 2023-03-17 11:29:17 INFO  X
+2023-03-17 11:44:37 INFO  ****************************************************************************************
+2023-03-17 11:44:37 INFO  ****************************************************************************************
+2023-03-17 11:44:37 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-17 11:44:37 INFO  ****************************************************************************************
+2023-03-17 11:44:37 INFO  ****************************************************************************************
+2023-03-17 11:44:47 INFO  App is Launched
+2023-03-17 11:44:52 INFO  Username Entered
+2023-03-17 11:44:53 INFO  Password Entered
+2023-03-17 11:44:57 INFO  Clicked SignIn Button
+2023-03-17 11:45:41 INFO  User is Signed In
+2023-03-17 11:45:41 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pratiks-MBP.lan', ip: '2603:8080:f900:146:0:0:0:187a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/pratik/IdeaProjects/..., appPackage: com.cytracom.cytracommobile, appWaitActivity: com.cytracom.*, browserName: , databaseEnabled: false, desired: {app: /Users/pratik/IdeaProjects/..., appWaitActivity: com.cytracom.*, browserName: , deviceName: emulator-5554, nativeEvents: true, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 42c7d732-03b4-43cd-a21c-f421f483788a
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='History']}
+2023-03-17 11:45:41 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 11:45:41 INFO  X
+2023-03-17 11:45:41 INFO  X
+2023-03-17 11:45:41 INFO  X
+2023-03-17 11:45:41 INFO  X
