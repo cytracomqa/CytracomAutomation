@@ -133,7 +133,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             Log.info("Clicked SignIn Button");
             System.out.println("Clicked on SignIn Button");
 
-            Thread.sleep(20000);
+            Thread.sleep(15000);
 
 //            try{
 //                Functions.waitForFeedbackPopup();
