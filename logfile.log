@@ -11674,3 +11674,64 @@ Session ID: e1ab022b-704c-4501-b1b4-4c934a2aaaec
 2023-03-16 16:08:23 INFO  X
 2023-03-16 16:08:23 INFO  X
 2023-03-16 16:08:23 INFO  X
+2023-03-16 19:06:42 INFO  ****************************************************************************************
+2023-03-16 19:06:42 INFO  ****************************************************************************************
+2023-03-16 19:06:42 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-16 19:06:42 INFO  ****************************************************************************************
+2023-03-16 19:06:42 INFO  ****************************************************************************************
+2023-03-16 19:07:04 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-16 19:07:04 INFO  X
+2023-03-16 19:07:04 INFO  X
+2023-03-16 19:07:04 INFO  X
+2023-03-16 19:07:04 INFO  X
+2023-03-16 19:12:00 INFO  ****************************************************************************************
+2023-03-16 19:12:00 INFO  ****************************************************************************************
+2023-03-16 19:12:00 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-16 19:12:00 INFO  ****************************************************************************************
+2023-03-16 19:12:00 INFO  ****************************************************************************************
+2023-03-16 19:12:23 INFO  App is Launched
+2023-03-16 19:12:28 INFO  Username Entered
+2023-03-16 19:12:29 INFO  Password Entered
+2023-03-16 19:12:33 INFO  Clicked SignIn Button
+2023-03-16 19:13:11 INFO  User is Signed In
+2023-03-16 19:13:11 INFO  An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pratiks-MBP.lan', ip: '2603:8080:f900:146:0:0:0:187a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/pratik/IdeaProjects/..., appPackage: com.cytracom.cytracommobile, appWaitActivity: com.cytracom.*, autoGrantPermissions: true, browserName: , databaseEnabled: false, desired: {app: /Users/pratik/IdeaProjects/..., appWaitActivity: com.cytracom.*, autoGrantPermissions: true, browserName: , deviceName: emulator-5554, nativeEvents: true, noReset: false, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6c916f38-cd3d-4c06-9c88-094709ee7fcf
+*** Element info: {Using=xpath, value=//*[@text='WHILE USING THE APP']}
+2023-03-16 19:13:11 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-16 19:13:11 INFO  X
+2023-03-16 19:13:11 INFO  X
+2023-03-16 19:13:11 INFO  X
+2023-03-16 19:13:11 INFO  X
+2023-03-16 19:13:47 INFO  ****************************************************************************************
+2023-03-16 19:13:47 INFO  ****************************************************************************************
+2023-03-16 19:13:47 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-16 19:13:47 INFO  ****************************************************************************************
+2023-03-16 19:13:47 INFO  ****************************************************************************************
+2023-03-16 19:13:58 INFO  App is Launched
+2023-03-16 19:14:01 INFO  Username Entered
+2023-03-16 19:14:03 INFO  Password Entered
+2023-03-16 19:14:07 INFO  Clicked SignIn Button
+2023-03-16 19:14:32 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-16 19:14:32 INFO  X
+2023-03-16 19:14:32 INFO  X
+2023-03-16 19:14:32 INFO  X
+2023-03-16 19:14:32 INFO  X
+2023-03-16 19:14:41 INFO  ****************************************************************************************
+2023-03-16 19:14:41 INFO  ****************************************************************************************
+2023-03-16 19:14:41 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-16 19:14:41 INFO  ****************************************************************************************
+2023-03-16 19:14:41 INFO  ****************************************************************************************
+2023-03-16 19:14:51 INFO  App is Launched
+2023-03-16 19:14:55 INFO  Username Entered
+2023-03-16 19:14:57 INFO  Password Entered
+2023-03-16 19:15:01 INFO  Clicked SignIn Button
+2023-03-16 19:15:20 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-16 19:15:20 INFO  X
+2023-03-16 19:15:20 INFO  X
+2023-03-16 19:15:20 INFO  X
+2023-03-16 19:15:20 INFO  X

@@ -130,7 +130,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             Log.info("Clicked SignIn Button");
             System.out.println("Clicked on SignIn Button");
 
-            Thread.sleep(10000);
+            Thread.sleep(4000);
 //            try{
 //                Functions.waitForFeedbackPopup();
 //                Functions.FeedbackPopup();
@@ -149,10 +149,11 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //                }
 //            }catch(Exception e) {System.out.println("No Call Permission Popup");}
 
-
+            try {
             SignInScreen.audioPermissionPopup().click();
             Thread.sleep(4000);
             SignInScreen.allowButton().click();
+            }catch(Exception e) {System.out.println("No Permission Popup");}
 
             sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
         }
