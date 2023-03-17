@@ -11804,3 +11804,16 @@ Session ID: 7e684914-ac14-49c3-a81f-b0edb2dd181d
 2023-03-17 00:41:23 INFO  Username Entered
 2023-03-17 00:41:25 INFO  Password Entered
 2023-03-17 00:41:29 INFO  Clicked SignIn Button
+2023-03-17 00:42:15 INFO  User is Signed In
+2023-03-17 00:42:15 INFO  The element 'By.xpath: //*[@content-desc="End Call Button"]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pratiks-MBP.lan', ip: '2603:8080:f900:146:0:0:0:187a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/pratik/IdeaProjects/..., appPackage: com.cytracom.cytracommobile, appWaitActivity: com.cytracom.*, browserName: , databaseEnabled: false, desired: {app: /Users/pratik/IdeaProjects/..., appWaitActivity: com.cytracom.*, browserName: , deviceName: emulator-5554, nativeEvents: true, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d7f73cdb-71a4-46ea-9306-4fd117ad21ee
+2023-03-17 00:42:15 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-17 00:42:15 INFO  X
+2023-03-17 00:42:15 INFO  X
+2023-03-17 00:42:15 INFO  X
+2023-03-17 00:42:15 INFO  X
