@@ -32,11 +32,12 @@ jobs:
           distribution: 'temurin'
           cache: maven    
           
-      - name: setup Appium
+      - name: setup Appium and adb
         run: |
           npm install -g appium
           appium -v
           appium &>/dev/null &
+          npm install adb
           
       - name: Gradle cache
         uses: gradle/gradle-build-action@v2
