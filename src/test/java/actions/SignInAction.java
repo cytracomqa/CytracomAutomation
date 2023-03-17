@@ -135,6 +135,15 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 
             Thread.sleep(15000);
 
+            List<WebElement> m = androidDriver.findElements(By.xpath("//*"));
+
+            for (int i = 0; i < m.size(); i++) {
+                //obtain text
+                String s = m.get(i).getText();
+                System.out.println("Text is: " + s);
+            }
+        }
+
 //            try{
 //                Functions.waitForFeedbackPopup();
 //                Functions.FeedbackPopup();
@@ -154,14 +163,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //            }catch(Exception e) {System.out.println("No Call Permission Popup");}
 
 
-            List<WebElement> m = androidDriver.findElements(By.xpath("//*"));
 
-            for (int i = 0; i < m.size(); i++) {
-                //obtain text
-                String s = m.get(i).getText();
-                System.out.println("Text is: " + s);
-            }
-        }
 //            try {
 //                SignInScreen.allowButton().click();
 //            }catch(Exception e) {System.out.println("No Permission Popup");}
