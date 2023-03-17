@@ -34,7 +34,7 @@ jobs:
           
       - name: setup Appium
         run: |
-          npm install -g appium -- address 127.0.0.1 --port 4723
+          npm install -g appium
           appium -v
           appium &>/dev/null &
           
@@ -55,6 +55,5 @@ jobs:
         uses: reactiveCircus/android-emulator-runner@v2
         with:
           api-level: 30
-          target: default
-          arch: x86_64
+          target: google_apis
           script: mvn clean test
