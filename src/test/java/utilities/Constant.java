@@ -8,7 +8,7 @@ public class Constant {
     //public static final String deviceName = "sdk_gphone_x86_64_arm64";
     //public static final String deviceName = "Google Pixel 3a XL";
     public static final String deviceName = "emulator-5554";
-    public static final String version = "8.1.0";
+    public static final String version = "11";
 
     public static final String deviceName1 = "GalaxyS10";
     public static final String version1 = "12.0";
