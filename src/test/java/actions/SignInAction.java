@@ -137,9 +137,6 @@ public class SignInAction extends BaseClassiOSAndAndroid {
                 SignInScreen.signIn().click();
             }catch(Exception e) {System.out.println("Already Clicked on SignIn button");}
 
-            try{
-                SignInScreen.signIn().click();
-            }catch(Exception e) {System.out.println("Already Clicked on SignIn button");}
 
             Thread.sleep(15000);
 
