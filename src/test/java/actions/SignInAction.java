@@ -141,7 +141,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
                 SignInScreen.signIn().click();
             }catch(Exception e) {System.out.println("Already Clicked on SignIn button");}
 
-            Thread.sleep(10000);
+            Thread.sleep(15000);
 
             List<WebElement> m = androidDriver.findElements(By.xpath("//*"));
 
