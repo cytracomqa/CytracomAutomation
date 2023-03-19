@@ -7,14 +7,14 @@
 # documentation.
 
 
-name: CI with Maven Appium
+name: Java CI with Maven
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
- jobs:
+jobs:
   run-mobile-tests:
     runs-on: macos-latest
     strategy:
@@ -37,6 +37,8 @@ on:
           npm install -g appium
           appium -v
           appium &>/dev/null &
+          
+    
 
       
       - name: Run Appium tests
