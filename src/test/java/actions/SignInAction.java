@@ -119,10 +119,14 @@ public class SignInAction extends BaseClassiOSAndAndroid {
             SignInScreen.textUsername().click();
             SignInScreen.textUsername().sendKeys(Username);
             Log.info("Username Entered");
+            System.out.println("Username Entered");
+
 
             SignInScreen.textPassword().click();
             SignInScreen.textPassword().sendKeys(Password);
             Log.info("Password Entered");
+            System.out.println("Password Entered");
+
 
             if (deviceType.equalsIgnoreCase("Android")) {
                 androidDriver.hideKeyboard();
