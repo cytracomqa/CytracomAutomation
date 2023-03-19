@@ -7,14 +7,14 @@
 # documentation.
 
 
-name: Java CI with Maven
+name: CI with Maven Appium
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
-jobs:
+ jobs:
   run-mobile-tests:
     runs-on: macos-latest
     strategy:
@@ -37,18 +37,6 @@ jobs:
           npm install -g appium
           appium -v
           appium &>/dev/null &
-          
-      - name: Gradle cache
-        uses: gradle/gradle-build-action@v2
-        
-      - name: AVD cache
-        uses: actions/cache@v3
-        id: avd-cache
-        with:
-          path: |
-            ~/.android/avd/*
-            ~/.android/adb*
-          key: avd-${{ matrix.api-level }}
 
       
       - name: Run Appium tests
