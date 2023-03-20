@@ -97,7 +97,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
                 }catch(Exception e){
 //                    sa.assertTrue(Functions.verifyElementPresence(CallHistoryPage.callHistoryMenu()));
                         Log.info("User is Signed In");
-                    System.out.println("User may be already signed In");
+                    System.out.println("User  In");
                     return i;
                 }
         }
