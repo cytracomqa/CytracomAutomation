@@ -33,6 +33,9 @@ public class CallHistoryAction extends BaseClassiOSAndAndroid {
         sa.assertTrue(Functions.verifyElementPresence(CallActivePage.endCallButton()));
         Thread.sleep(4000);
         CallActivePage.endCallButton().click();
+        System.out.println("CallHistoryFirstCall is executed");
+
+
     }
 
     public static void CallHistorySecondCall() throws Exception {
