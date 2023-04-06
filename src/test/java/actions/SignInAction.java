@@ -82,7 +82,6 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //        }
 //
 //        DelOrPickup();
-//
 //    }
         //Waits for Sign In Button and clicks the button. If not present will throw exception and proceed with the test
         public static int SignInWithEmail(int i) throws InterruptedException {
