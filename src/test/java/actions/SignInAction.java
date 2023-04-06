@@ -149,7 +149,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
                 String s = m.get(i).getText();
                 System.out.println("Text is: " + s);
             }
-        }
+
 
 //            try{
 //                Functions.waitForFeedbackPopup();
@@ -158,16 +158,16 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //                System.out.println("No Feedback Popup");
 //            }
             //Wait for call history menu button after Logging in
-//              try {
-//                  if (SignInScreen.audioPermissionPopup().getText().equals("WHILE USING THE APP")) {
-//                      SignInScreen.audioPermissionPopup().click();}
-//                  }catch(Exception e) {System.out.println("No Audio Permission Popup");}
-//
-//            try {
-//                if (SignInScreen.callPermissionPopup().getText().equals("Allow Cytracom Mobile to make and manage phone calls?")) {
-//                    SignInScreen.allowButton().click();
-//                }
-//            }catch(Exception e) {System.out.println("No Call Permission Popup");}
+              try {
+                  if (SignInScreen.audioPermissionPopup().getText().equals("WHILE USING THE APP")) {
+                      SignInScreen.audioPermissionPopup().click();}
+                  }catch(Exception e) {System.out.println("No Audio Permission Popup");}
+
+            try {
+                if (SignInScreen.callPermissionPopup().getText().equalsIgnoreCase("Allow Cytracom Mobile to make and manage phone calls?")) {
+                    SignInScreen.allowButton().click();
+                }
+            }catch(Exception e) {System.out.println("No Call Permission Popup");}
 
 
 
@@ -260,7 +260,7 @@ public class SignInAction extends BaseClassiOSAndAndroid {
 //                SignInScreen.waitForAddItems();
 //                Log.info("User is Signed In");
 //
-//        }
+       }
 
     //This function is to retrieve and enter username and password from data File for Subscription and Signing In
     public static void SignInWithUnamePwdForSubscriptionCancel(String email) throws Exception {

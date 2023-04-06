@@ -47,6 +47,7 @@ public class Utils extends BaseClassiOSAndAndroid {
 
             capabilities.setCapability(MobileCapabilityType.APP, Constant.appPath);
             capabilities.setCapability("appWaitActivity", "com.cytracom.*");
+            capabilities.setCapability("androidInstallTimeout", "300000");
 
             //capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 
