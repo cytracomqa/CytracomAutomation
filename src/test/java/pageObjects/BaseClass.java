@@ -13,6 +13,4 @@ public class BaseClass {
         BaseClass.driver = driver;
         BaseClass.bResult = true;
     }
-
-
 }

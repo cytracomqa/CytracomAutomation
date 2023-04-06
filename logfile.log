@@ -12125,3 +12125,67 @@ Session ID: 42c7d732-03b4-43cd-a21c-f421f483788a
 2023-03-19 22:22:45 INFO  X
 2023-03-19 22:22:45 INFO  X
 2023-03-19 22:22:45 INFO  X
+2023-03-22 11:58:25 INFO  ****************************************************************************************
+2023-03-22 11:58:25 INFO  ****************************************************************************************
+2023-03-22 11:58:25 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-22 11:58:25 INFO  ****************************************************************************************
+2023-03-22 11:58:25 INFO  ****************************************************************************************
+2023-03-22 11:58:55 INFO  App is Launched
+2023-03-22 11:59:01 INFO  Username Entered
+2023-03-22 11:59:03 INFO  Password Entered
+2023-03-22 11:59:08 INFO  Clicked SignIn Button
+2023-03-22 11:59:49 INFO  User is Signed In
+2023-03-22 11:59:49 INFO  Cached elements 'By.xpath: //*' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Pratiks-MacBook-Pro.local', ip: 'fe80:0:0:0:1caf:ef98:76cf:9b70%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_342'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/pratik/IdeaProjects/..., appPackage: com.cytracom.cytracommobile, appWaitActivity: com.cytracom.*, browserName: , databaseEnabled: false, desired: {app: /Users/pratik/IdeaProjects/..., appWaitActivity: com.cytracom.*, browserName: , deviceName: emulator-5554, nativeEvents: true, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: e1d28d9a-842d-4913-8493-0e78229f8474
+2023-03-22 11:59:49 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-22 11:59:49 INFO  X
+2023-03-22 11:59:49 INFO  X
+2023-03-22 11:59:49 INFO  X
+2023-03-22 11:59:49 INFO  X
+2023-03-22 13:22:50 INFO  ****************************************************************************************
+2023-03-22 13:22:50 INFO  ****************************************************************************************
+2023-03-22 13:22:50 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-22 13:22:50 INFO  ****************************************************************************************
+2023-03-22 13:22:50 INFO  ****************************************************************************************
+2023-03-22 13:23:05 INFO  App is Launched
+2023-03-22 13:23:09 INFO  Username Entered
+2023-03-22 13:23:11 INFO  Password Entered
+2023-03-22 13:23:15 INFO  Clicked SignIn Button
+2023-03-22 13:23:32 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-22 13:23:32 INFO  X
+2023-03-22 13:23:32 INFO  X
+2023-03-22 13:23:32 INFO  X
+2023-03-22 13:23:32 INFO  X
+2023-03-22 13:23:44 INFO  ****************************************************************************************
+2023-03-22 13:23:44 INFO  ****************************************************************************************
+2023-03-22 13:23:44 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-22 13:23:44 INFO  ****************************************************************************************
+2023-03-22 13:23:44 INFO  ****************************************************************************************
+2023-03-22 13:23:54 INFO  App is Launched
+2023-03-22 13:23:59 INFO  Username Entered
+2023-03-22 13:24:00 INFO  Password Entered
+2023-03-22 13:24:04 INFO  Clicked SignIn Button
+2023-03-22 13:24:20 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-22 13:24:20 INFO  X
+2023-03-22 13:24:20 INFO  X
+2023-03-22 13:24:20 INFO  X
+2023-03-22 13:24:20 INFO  X
+2023-03-22 13:24:37 INFO  ****************************************************************************************
+2023-03-22 13:24:37 INFO  ****************************************************************************************
+2023-03-22 13:24:37 INFO  $$$$$$$$$$$$$$$$$$$$$                 CallHistory_FirstCall       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-03-22 13:24:37 INFO  ****************************************************************************************
+2023-03-22 13:24:37 INFO  ****************************************************************************************
+2023-03-22 13:24:47 INFO  App is Launched
+2023-03-22 13:24:52 INFO  Username Entered
+2023-03-22 13:24:54 INFO  Password Entered
+2023-03-22 13:24:57 INFO  Clicked SignIn Button
+2023-03-22 13:25:13 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2023-03-22 13:25:13 INFO  X
+2023-03-22 13:25:13 INFO  X
+2023-03-22 13:25:13 INFO  X
+2023-03-22 13:25:13 INFO  X
